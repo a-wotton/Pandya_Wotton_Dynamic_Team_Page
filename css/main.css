@@ -1,0 +1,100 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: #707070;
+    text-align: center;
+    background: rgb(241,139,112);
+    background: linear-gradient(0deg, rgba(241,139,112,1) 0%, rgba(241,90,43,1) 100%);
+}
+
+.hidden {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 80px);
+    grid-column-gap: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header {
+    height: 145px;
+    background-image: url(../images/header.png);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#logo {
+    height: 83px;
+}
+
+.subtitle {
+    grid-column: 3/11;
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#team-info p {
+    grid-column: 4/10;
+    margin: 0;
+}
+
+#members {
+    margin-top: 40px;
+    background-color: #CF4C28;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.box {
+    background-color: #4f4f4f;
+    width: 362px;
+    height: 388px;
+    border-radius: 20px;
+}
+
+#aiden {
+    grid-column: 2/6;
+}
+
+#dev {
+    grid-column: 8/11;
+}
+
+.info {
+    grid-column: 2/12;
+}
+
+#member-name {
+    font-size: 64px;
+    margin-bottom: 0;
+}
+
+#member-role {
+    font-size: 48px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+#bio {
+    text-align: left;
+}
+
+footer {
+    margin-top: 30px;
+    background-image: url(../images/footer.png);
+    height: 196px;
+}
