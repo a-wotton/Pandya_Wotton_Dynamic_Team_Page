@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.87 103.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f15a29;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+        font-family: Helvetica-BoldOblique, Helvetica;
+        font-size: 74.01px;
+        font-style: oblique;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="292.85 81.61 3.02 81.61 18.02 2.5 307.85 2.5 292.85 81.61"/>
+  <text class="cls-2" transform="translate(12.7 68.08)"><tspan x="0" y="0">D-ZYNE</tspan></text>
+</svg>
