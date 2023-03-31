@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family:  'Fira Sans', sans-serif;
     font-size: 24px;
     color: #707070;
     text-align: center;
@@ -34,9 +34,33 @@ header {
     padding-right: 20px;
 }
 
+u {
+    color:#CF4C28;
+}
+
 #logo {
     height: 83px;
 }
+
+.logo-container {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  .logo-container img:hover {
+    transform: scale(1.2);
+  }
+
+
 
 .subtitle {
     grid-column: 3/11;
@@ -50,6 +74,12 @@ header {
     margin: 0;
 }
 
+#team-info h2:hover {
+    transform: scale(1.1);
+  }
+
+
+
 #members {
     margin-top: 40px;
     background-color: #CF4C28;
@@ -58,36 +88,132 @@ header {
 }
 
 .box {
-    background-color: #4f4f4f;
+  
     width: 362px;
     height: 388px;
     border-radius: 20px;
+   /* background-image: url(../images/Dev-with-siri.jpg); 
+    background-size: 362px 388px; */
+  
+
 }
+
+
+.name {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.role {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    background-color: white;
+    font-size: medium;
+}
+
+p {
+    color:black;
+    background-color: white;
+}
+
 
 #aiden {
     grid-column: 2/6;
+    background-image: url(../images/Dev-with-siri.jpg); 
+    background-size: 362px 388px;
+    
 }
+
+
 
 #dev {
     grid-column: 8/11;
+    background-image: url(../images/Dev-with-siri.jpg); 
+    background-size: 362px 388px;
+    
 }
+
+.box img:hover {
+    transition: scale(0.9); /* zoom out effect */
+  }
+  
+
 
 .info {
     grid-column: 2/12;
 }
 
-#member-name {
-    font-size: 64px;
+.gallery-img {
+    display: inline-block;
+    width: 756px;
+    height: 865px;
+    margin-right: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+#gallery {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#gallery:hover .gallery-img {
+    transform: translateX(-1300px);
+}
+
+.gallery-img:first-child {
+    margin-left: 20px;
+}
+
+.gallery-img:last-child {
+    margin-right: 0px;
+}
+
+hr {
+    color: #CF4C28;
+    
+}
+
+
+
+#gallery-title {
+    font-size: 50px;
     margin-bottom: 0;
 }
 
-#member-role {
-    font-size: 48px;
+#member-name {
+    font-size: 50px;
+    margin-bottom: 0;
+    
+}
+
+#member-info {
+    display: none;
+}
+
+#gallery-title:hover {
+    transform: scale(1.1);
+}
+
+#member-role, #galley-subtitle {
+    font-size: 35px;
     font-style: italic;
     margin-top: 0;
     margin-bottom: 20px;
     font-weight: 400;
 }
+
 
 #bio {
     text-align: left;
