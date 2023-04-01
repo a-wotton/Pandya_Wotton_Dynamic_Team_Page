@@ -128,7 +128,7 @@ p {
 
 #aiden {
     grid-column: 2/6;
-    background-image: url(../images/Dev-with-siri.jpg); 
+    background-image: url(../images/aiden_colourless.jpg); 
     background-size: 362px 388px;
     
 }
@@ -137,7 +137,7 @@ p {
 
 #dev {
     grid-column: 8/11;
-    background-image: url(../images/Dev-with-siri.jpg); 
+    background-image: url(../images/dev_colourless.jpg); 
     background-size: 362px 388px;
     
 }
